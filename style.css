@@ -1,3 +1,6 @@
+:root {
+    --glow: rgba(220, 233, 38, 1);
+}
 .logo {
     width: 20vw;
     height: 30vh;
@@ -42,25 +45,11 @@ body {
     color: gold;
 }
 
-.jak1cover {
-    height: 450px;
+.jakImg {
+    height: 100%;
     width: 300px;
     display: inline-block;
-    border-radius: 15px;
-}
-
-.jak2cover {
-    height: 450px;
-    width: 300px;
-    display: inline-block;
-    border-radius: 15px;
-}
-
-.jak3cover {
-    height: 450px;
-    width: 300px;
-    display: inline-block;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .card-box {
@@ -81,11 +70,14 @@ body {
     border-radius: 15px;
 }
 
+.card :hover {
+    box-shadow: 0 0 20px 20px rgb(194, 243, 16);
+}
 .card > img {
     filter: opacity(100%);
 }
 
 a:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(220, 233, 38, 1);
+    border-radius: 12px;
 }
