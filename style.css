@@ -81,3 +81,68 @@ a:hover {
     color: rgba(255, 255, 255, 1);
     border-radius: 12px;
 }
+
+.jakrunning {
+    height: 35vh;
+    width: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: solid orangered 3px;
+    position: relative;
+    border-radius: 1000px;
+}
+.jak1cover {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.jak1logo {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    left: 20%;
+    bottom: 72%;
+}
+
+.content-box {
+    height: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid orangered 3px;
+    background-color: rgb(20, 36, 83);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+h2 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: arial;
+}
+
+.ottsel {
+    height: 30vh;
+    width: 12vw;
+    border: double darkolivegreen 2px;
+    border-radius: 10px;
+}
+
+#ottsel {
+    float: right;
+    font-style: italic;
+    text-align: center;
+}
+
+figcaption {
+    background-color:darkolivegreen;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
