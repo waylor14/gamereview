@@ -123,9 +123,24 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 1.5rem;
+}
 p {
     font-size: 1.3rem;
     font-family: arial;
+}
+
+.misty {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+    border: solid darkolivegreen 3px;
+}
+
+#misty {
+    float: left;
 }
 
 .ottsel {
@@ -145,4 +160,216 @@ figcaption {
     background-color:darkolivegreen;
     font-size: 1.2rem;
     border-radius: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.eco-list {
+    background-color: rgb(20, 27, 32);
+    border-radius: 10px;
+    width: 20vw;
+    padding: 2%;
+    text-align: center;
+    list-style: none;
+    margin-left: 5%;
+}
+
+li {
+    font-family: arial;
+    color: darkgray;
+}
+
+li > span {
+    font-weight: bold;
+    font-family: arial;
+}
+
+.green-eco > span {
+    color: lime;
+}
+
+.blue-eco > span{
+    color: rgb(0, 153, 255);
+}
+
+.yellow-eco > span {
+    color: yellow;
+}
+
+.red-eco > span {
+    color: red;
+}
+
+.dark-eco > span {
+    color: rgb(102, 0, 128);
+}
+
+.light-eco > span {
+    color: azure;
+}
+
+.eco-img {
+    border-radius: 10px;
+    width: 20vw;
+    height: 20vh;
+}
+
+#ecofigure {
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 7vh;
+    left: 24vw;
+    margin-right: 5%;
+    border: solid darkolivegreen 3px;
+    border-radius: 13px;
+}
+
+#ecofigure > figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+.gameplay {
+    position: relative;
+}
+
+.flutflut {
+    height: 30vh;
+    width: 12vw;
+    border: solid darkolivegreen 3px;
+    border-radius: 10px;
+}
+
+#flutflut {
+    float: left;
+}
+
+.zoomer {
+    height: 30vh;
+    width: 25vw;
+    border: solid darkolivegreen 3px;
+    border-radius: 10px;
+}
+
+#zoomer {
+    float: right;
+}
+
+hr {
+    border: solid orangered 1px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    position: fixed;
+    top: 20px;
+    color: orangered;
+    margin-left: 0.5%;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: solid orangered 3px;
+    border-radius: 10px;
+    background-color: rgb(20, 36, 83);
+    text-align: center;
+}
+
+
+a {
+    color: orangered;
+    text-decoration: none;
+    font-family: 'Bungee Spice', cursive;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    box-shadow: 0 0 10px 5px rgb(194, 243, 16);
+}
+
+.plantboss {
+    height: 30vh;
+    width: 22vw;
+    border-radius: 10px;
+    border: solid darkolivegreen 3px;
+}
+
+#plantboss {
+    float: left;
+}
+
+.plantfight {
+    background-color: rgb(20, 27, 32);
+    border-radius: 10px;
+    width: 50%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+
+
+.klawwboss {
+    width: 25vw;
+    border-radius: 10px;
+    border: solid darkolivegreen 3px;
+}
+
+#klawwboss {
+    float: right;
+}
+
+.klawwfight {
+    background-color: rgb(20, 27, 32);
+    border-radius: 10px;
+    width: 50%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+.robotboss {
+    height: 30vh;
+    width: auto;
+    border-radius: 10px;
+    border: solid darkolivegreen 3px;
+}
+
+#robotboss {
+    float: left;
+}
+
+#robotfight {
+    background-color: rgb(20, 27, 32);
+    border-radius: 10px;
+    width: 50%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+#jak1score {
+    text-align: center;
+    font-size: 3.3rem;
+    background-color: rgb(20, 27, 32);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#jak1score > span {
+    font-size: 2rem;
+    position: relative;
+    bottom: 0.5vh;
 }
