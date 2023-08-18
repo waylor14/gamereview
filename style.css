@@ -1,5 +1,9 @@
 :root {
     --glow: rgba(220, 233, 38, 1);
+    --background: rgb(20, 36, 83);
+    --lightbackground: rgb(29, 51, 115);
+    --dark: rgb(20, 27, 32);
+    --lighterdark: rgb(46, 70, 87);
 }
 .logo {
     width: 20vw;
@@ -172,6 +176,7 @@ figcaption {
     text-align: center;
     list-style: none;
     margin-left: 5%;
+    border: solid var(--lighterdark) 2px;
 }
 
 li {
@@ -278,7 +283,6 @@ hr {
     text-align: center;
 }
 
-
 a {
     color: orangered;
     text-decoration: none;
@@ -314,8 +318,6 @@ a:hover {
     margin-right: auto;
     list-style: none;
 }
-
-
 
 .klawwboss {
     width: 25vw;
@@ -372,4 +374,280 @@ a:hover {
     font-size: 2rem;
     position: relative;
     bottom: 0.5vh;
+}
+
+.jak2cover {
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+    width: 50%;
+    margin-top: 30px;
+    object-fit: cover;
+    border: solid orangered 3px;
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.jak2Img {
+    display: flex;
+    object-fit: cover;
+    height: 35vh;
+    width: 100%;
+    object-position: center;
+    border-radius: 200px;
+    justify-content: center;
+}
+
+.jak2text {
+    position: absolute;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 56%;
+    bottom: 60%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    height: 60vh;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2%;
+    border-radius: 20px;
+}
+
+.item {
+    background-color: rgb(20, 36, 83);
+    border-radius: 20px;
+    border: solid orangered 3px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-top: 10px;
+    overflow: none;
+    white-space: normal;
+    margin-bottom: 2vh;
+}
+
+.synopsis-grid {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.trailer-grid {
+    grid-row: span 2;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.gameplay-grid {
+    grid-row: span 1;
+}
+
+video {
+    height: auto;
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 0 0 5px 5px var(--lighterdark);
+    border: solid black 2px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.item > h2 {
+    margin-top: 0;
+}
+
+.item > p {
+    margin: 0;
+}
+
+.left-grid {
+    grid-column: span 2;
+    gap: 2%;
+}
+
+.right-grid {
+    grid-column: span 1;
+    gap: 2%;
+}
+
+.bottom-grid {
+    grid-column: span 3;
+    gap: 2%;
+}
+
+.jak2guns {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategray;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guns-table-container {
+    display: grid;
+    grid-template: 1fr repeat(3, 1fr) / 1fr 1.5fr;
+    background-color: black;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 5px;
+    gap: 3px;
+}
+
+.gun-name {
+    grid-column: span 2;
+    background-color: darkseagreen;
+    background-color: darkcyan;
+    border-radius: 1px;
+}
+
+.gun-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gun-left {
+    background-color: darkolivegreen;
+    border-radius: 1px;
+    font-weight: bold;
+}
+
+.gun-right {
+    background-color: darkslategray;
+    border-radius: 1px;
+}
+
+#guns-table {
+    border: solid mediumseagreen 5px;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+.gun-name > h3 {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 3px;
+    box-shadow: 0 0 20px black;
+}
+
+.gun-item > p {
+    color: lightyellow;
+}
+
+.guns-grid > p{
+    margin-bottom: 3vh;
+    width: 94%;
+    display: flex;
+    text-align: justify;
+    background-color: var(--lightbackground);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 5px var(--dark);
+    border: solid var(--lighterdark) 2px;
+}
+
+.character-grid-box {
+    display: grid;
+    grid-template: 3fr 2fr 3fr 2fr / 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--dark);
+    row-gap: 1%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: solid var(--lighterdark) 2px;
+}
+
+.character-pic {
+    width: 10vw;
+    height: 35vh;
+    object-fit: contain;
+    background-color: var(--lightbackground);
+    border-radius: 30px;
+    border: solid royalblue 2px;
+}
+
+.character-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.characters-grid {
+    display: flex;
+    text-align: justify;
+}
+
+#character-name {
+    font-family: 'Bungee Spice', cursive;
+    font-style: normal;
+    background-color: var(--lightbackground);
+    border: solid royalblue 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 3px greenyellow;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    position: relative;
+    bottom: 25px;
+}
+
+#character-caption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--lighterdark);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 22vh;
+    width: 12vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border: solid royalblue 2px;
+}
+
+.synopsis-grid > p {
+    background-color: var(--lightbackground);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 5px var(--dark);
+    border: solid var(--lighterdark) 2px;
+}
+
+.character-pic:hover {
+    box-shadow: 0 0 20px 20px var(--glow);
 }
